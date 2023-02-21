@@ -6,8 +6,6 @@ import NewProducts from '../../component/Home/New-Products';
 
 export default function Home() {
 
-
-
     return (
         < >
             <HomeHeader />
