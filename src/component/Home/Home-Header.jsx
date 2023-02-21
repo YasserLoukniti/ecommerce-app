@@ -1,27 +1,25 @@
-import { StyleSheet, Text, View } from 'react-native';
-import { Avatar } from 'react-native-elements';
+import { useState } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { Text } from 'react-native-elements';
+import { Searchbar } from 'react-native-paper';
+import UserInfo from '../molecules/UserInfos';
 
 export default function HomeHeader() {
-
+    const [search, setSearch] = useState("")
     return (
         < >
             <View style={styles.userView}>
-                <View style={styles.userInfo}>
-                    <View style={styles.avatar}>
-                        <Avatar
-                            rounded
-                            size="medium"
-                            source={require("../../../assets/avatar.png")}
-                        />
-                    </View>
-                    <View style={styles.text}>
-                        <Text>Bonjour, YASSER</Text>
-                    </View>
-                </View>
-
+                <UserInfo />
             </View>
             <View style={styles.explorer}>
-                <Text>ssss</Text>
+                <Text h2 h2Style={{ color: "#3E5638" }}>Explorer</Text>
+                <Searchbar
+                style={styles.searchbar}
+                inputStyle={{ Color: 'red'}}
+                placeholder="Trouver du bonbon"
+                onChangeText={(value) => setSearch(value)}
+                value={search}
+    />
             </View>
         </>
     );
@@ -33,28 +31,15 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
 
     },
-    userInfo: {
-        flex: 1,
-        width: "50%",
-        alignItems: 'center',
-        justifyContent: 'center',
-        flexDirection: 'row',
-        paddingTop: 30,
-    },
-    avatar: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    text: {
-        flex: 2,
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-    },
     explorer: {
         flex: 3,
-        backgroundColor: "orange",
-        alignItems: 'center',
-        justifyContent: 'center',
+        backgroundColor: "white",
+        padding: 15
+    },
+    searchbar: {
+        width:"80%",
+        height:25,
+        marginTop: 30,
+        
     }
 });
