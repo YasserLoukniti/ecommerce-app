@@ -12,7 +12,6 @@ export default function MostOrdered() {
 
         </View>
     
-        {/* Books */}
         <View style={{ flex: 1, marginTop: 10 }}>
             <FlatList
                 data={productsData}

@@ -6,7 +6,7 @@ export const productsData = [
     prix: 10,
     categorie: 'bonbon coca',
     color:'#c1aeae',
-    image:require("../../assets/cannabisBonon.jpg")
+    image:require("../../assets/product1.png")
   },
   {
     id: 2,
@@ -31,6 +31,38 @@ export const productsData = [
     categorie: 'bonbon milka',
     color:'#a3b5a2',
     image:require("../../assets/cannabisBonon.jpg")
+  },
+  {
+    id: 5,
+    title: 'product new',
+    prix: 10,
+    categorie: 'new',
+    color:'#c1aeae',
+    image:require("../../assets/product1.png")
+  },
+  {
+    id: 6,
+    title: 'Product new 2',
+    prix: 10,
+    categorie: 'new',
+    color:'#a3b5a2',
+    image:require("../../assets/product1.png")
+  },
+  {
+    id: 7,
+    title: 'Product new 3',
+    prix: 30,
+    categorie: 'new',
+    color:'#a3b5a2',
+    image:require("../../assets/product1.png")
+  },
+  {
+    id: 8,
+    title: 'Product new 4',
+    prix: 12,
+    categorie: 'new',
+    color:'#a3b5a2',
+    image:require("../../assets/product1.png")
   },
   
 ];
