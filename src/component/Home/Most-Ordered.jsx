@@ -1,9 +1,8 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-elements';
-import { productsData } from '../../data/ProductsData';
 import Product from '../molecules/Product';
 
-export default function MostOrdered() {
+export default function MostOrdered({products}) {
 
     return (
         <View style={styles.mostOrdered}>
@@ -14,9 +13,9 @@ export default function MostOrdered() {
     
         <View style={{ flex: 1, marginTop: 10 }}>
             <FlatList
-                data={productsData}
+                data={products}
                 renderItem={Product}
-                keyExtractor={item => `${item.id}`}
+                keyExtractor={item => `${item.title}`}
                 horizontal
                 showsHorizontalScrollIndicator={false}
             />

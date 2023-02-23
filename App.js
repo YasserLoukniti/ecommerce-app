@@ -2,6 +2,7 @@ import { StyleSheet, View } from 'react-native';
 import AppNavigator from './src/AppNavigator';
 
 export default function App() {
+
   return (
     <View style={styles.container}>
           <AppNavigator />
@@ -16,3 +17,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
