@@ -1,20 +1,18 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import ProductScreen from './src/screen/Data/data';
-import ProductDetailScreen from './src/screen/Produits/produit-detail.jsx';
+import { StyleSheet, View } from 'react-native';
+import AppNavigator from './src/AppNavigator';
 
-const Stack = createStackNavigator();
-
-const App = () => {
+export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Product">
-        <Stack.Screen name="Product" component={ProductScreen} options={{ title: 'Products' }} />
-        <Stack.Screen name="ProductDetail" component={ProductDetailScreen} options={{ title: 'Product Detail' }} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <View style={styles.container}>
+          <AppNavigator />
+    </View>
   );
-};
+}
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+    justifyContent: 'center',
+  },
+});
