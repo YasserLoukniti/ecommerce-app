@@ -1,36 +1,35 @@
 import { StyleSheet } from "react-native"
-import {  View } from "react-native"
+import { View } from "react-native"
 import { Avatar, Text } from "react-native-elements"
+import Nutrition from "./Nutrition"
 
-export default function Nutritions({ ingredients }) {
+export default function Nutritions({ nutritions }) {
     return (
-        <View style={{ flex: 4,padding: 20 }}>
-            <Text style={{ fontSize: 16, fontWeight: 'bold' }}>INGREDIENTS</Text>
-            <View style={styles.ingredientsFlex}>
-                {ingredients?.map(ingredient => (
-                    <View style={styles.ingredient}>
-                        <Avatar
-                            rounded
-                            size="large"
-                            source={ingredient.image}
-                        />
-                        <Text style={{fontSize:14,color:"grey",marginTop:10,fontWeight:"bold"}}>{ingredient.name}</Text>
-                    </View>
-                ))}
-            </View>
+        <View style={{ flex: 5,padding: 20}}>
+            <Text style={{ fontSize: 16, fontWeight: 'bold' }}>VALEURS NUTRITIONNELLES</Text>
+
+                <Nutrition nutKey="Energie" value={nutritions.Energie}/>
+                <Nutrition nutKey="Matières Grasses" value={nutritions.Matières_Grasses}/>
+                <Nutrition nutKey="Dont acides gras staurés" value={nutritions.Dont_acides_gras_staurés}/>
+                <Nutrition nutKey="Glucides" value={nutritions.Glucides}/>
+                <Nutrition nutKey="Protéines" value={nutritions.Protéines}/>
+                <Nutrition nutKey="Sel" value={nutritions.Sel}/>
+
         </View>
     )
 }
 const styles = StyleSheet.create({
-    ingredient: {
-        width: "40%",
-        height: 130,
-        margin: 10,
-        padding: 20,
-        alignItems:"center",
-        justifyContent:"center"
+    nutrition: {
+        flex: 1,
+        alignItems: "flex-start",
+        justifyContent: "center"
     },
-    ingredientsFlex: {
+    valeur: {
+        flex: 1,
+        alignItems: "flex-end",
+        justifyContent: "center"
+    },
+    nutritionFlex: {
         flex: 1,
         flexDirection: "row",
         paddingTop: 10,

@@ -11,14 +11,14 @@ export const productsData = [
       {name:'Framboise', image:require("../../assets/framboise.jpg")},
       {name:'Element secret', image:require("../../assets/cache.png")},
     ],
-    Valeurs_Nutritionnelles : [
-      Energie => "2075 kJ / 496 kcal", 
-      Matières_Grasses => "24g",
-      Dont_acides_gras_staurés => "4g",
-      Glucides => "61g",
-      Protéines => "10g",
-      Sel => "0,04" 
-      ],
+    nutritions : {
+      Energie : "2075 kJ / 496 kcal", 
+      Matières_Grasses: "24g",
+      Dont_acides_gras_staurés: "4g",
+      Glucides: "61g",
+      Protéines: "10g",
+      Sel: "0,04" 
+      },
     color:'#c1aeae',
     image:require("../../assets/coucougnette.jpg")
   },
@@ -34,15 +34,15 @@ export const productsData = [
       {name:'Miel', image:require("../../assets/miel.jpg")},
       {name:'Element secret', image:require("../../assets/cache.png")},
     ],
-    Valeurs_Nutritionnelles : [
-    Energie => "  2167 kj / 411 kcal", 
-    Graisses => " 8.20 g",
-    Dont_acides_gras_staurés => "  0.7 g",
-    Fibres_alimentaires => "   1.80 g",
-    Glucides => " 78.9 g",
-    Protéines => "  4.5 g",
-    Sel => "0,02"
-    ],
+    nutritions : {
+    Energie : "  2167 kj / 411 kcal", 
+    Graisses : " 8.20 g",
+    Dont_acides_gras_staurés : "  0.7 g",
+    Fibres_alimentaires : "   1.80 g",
+    Glucides : " 78.9 g",
+    Protéines : "  4.5 g",
+    Sel : "0,02"
+    },
     color:'#a3b5a2',
     
     image:require("../../assets/nougats.jpg")
@@ -58,16 +58,16 @@ export const productsData = [
       {name:'Cacao', image:require("../../assets/cacao.jpg")},
       {name:'Element secret', image:require("../../assets/cache.png")},
     ],
-    Valeurs_Nutritionnelles : [
-      Energie => "  2167 kj / 43 kcal", 
-      Graisses => " 6.20 g",
-      Dont_acides_gras_staurés => "  0.4 g",
-      Fibres_alimentaires => "   1.76 g",
-      Glucides => " 68.9 g",
-      Sucre => " 58.6 g",
-      Protéines => "  3.5 g",
-      Sel => " 0,03"
-      ],
+    nutritions : {
+      Energie : "  2167 kj / 43 kcal", 
+      Graisses : " 6.20 g",
+      Dont_acides_gras_staurés : "  0.4 g",
+      Fibres_alimentaires : "   1.76 g",
+      Glucides : " 68.9 g",
+      Sucre : " 58.6 g",
+      Protéines : "  3.5 g",
+      Sel : " 0,03"
+    },
     color:'#a3b5a2',
     image:require("../../assets/Coussins.jpg")
   },
@@ -82,16 +82,16 @@ export const productsData = [
       {name:'Element secret', image:require("../../assets/cache.png")},
       {name:'Citron', image:require("../../assets/citron.jpg")},
     ],
-    Valeurs_Nutritionnelles : [
-      Energie =>"  1877 kj / 4- kcal", 
-      Graisses =>" 2.50 g",
-      Dont_acides_gras_staurés =>"  0.3 g",
-      Fibres_alimentaires =>"   1.60 g",
-      Glucides =>" 61.9 g",
-      Sucre =>" 55.8 g",
-      Protéines =>"  3.78 g",
-      Sel =>" 0,05"
-      ],
+    nutritions : {
+      Energie:"  1877 kj / 4- kcal", 
+      Graisses:" 2.50 g",
+      Dont_acides_gras_staurés:"  0.3 g",
+      Fibres_alimentaires:"   1.60 g",
+      Glucides:" 61.9 g",
+      Sucre:" 55.8 g",
+      Protéines:"  3.78 g",
+      Sel:" 0,05"
+    },
     color:'#a3b5a2',
     image:require("../../assets/Betises.jpg")
   },
