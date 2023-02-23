@@ -1,9 +1,8 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-elements';
-import { productsData } from '../../data/ProductsData';
 import FlatProduct from '../atoms/FlatProduct';
 
-export default function NewProducts({nav}) {
+export default function NewProducts({nav,products}) {
 
     return (
         <View style={styles.newProducts}>
@@ -14,7 +13,7 @@ export default function NewProducts({nav}) {
 
             <View style={{ flex: 1, marginTop: 10 }}>
                 <FlatList
-                    data={productsData.filter(item => item.categorie == "new")}
+                    data={products.filter(item => item.categorie == "new")}
                     renderItem={({item, index}) => <FlatProduct item={item} index={index} nav={nav}/>}
                     keyExtractor={item => `${item.id}`}
                     horizontal
