@@ -8,7 +8,7 @@ export default function Ingredients({ ingredients }) {
             <Text style={{ fontSize: 16, fontWeight: 'bold' }}>INGREDIENTS</Text>
             <View style={styles.ingredientsFlex}>
                 {ingredients?.map(ingredient => (
-                    <View style={styles.ingredient} key={ingredient.id}>
+                    <View key={ingredient.id} style={styles.ingredient} >
                         <Avatar
                             rounded
                             size="large"

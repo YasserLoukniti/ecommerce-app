@@ -11,10 +11,7 @@ export default function ProductDetail({route,navigation}) {
             <ProductDetailHeader title={product.title} navigation={navigation}/>
             <Ingredients ingredients={product.ingredients}/>
             <Nutritions nutritions={product.nutritions}/>
-            <View style={{flex:1,backgroundColor:"black"}}>
-                <TouchableOpacity>
-                
-                </TouchableOpacity>
+            <View style={{flex:1}}>
             </View>
         </View>
     );

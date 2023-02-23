@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-elements';
 import { Searchbar } from 'react-native-paper';
-import UserInfo from '../molecules/UserInfos';
+import UserInfo from '../atoms/UserInfos';
 
 export default function HomeHeader() {
     const [search, setSearch] = useState("")

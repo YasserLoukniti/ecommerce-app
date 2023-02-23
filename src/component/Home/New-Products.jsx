@@ -1,7 +1,7 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-elements';
 import { productsData } from '../../data/ProductsData';
-import FlatProduct from '../molecules/FlatProduct';
+import FlatProduct from '../atoms/FlatProduct';
 
 export default function NewProducts({nav}) {
 
