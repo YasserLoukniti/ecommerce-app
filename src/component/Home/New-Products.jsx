@@ -3,7 +3,7 @@ import { Text } from 'react-native-elements';
 import { productsData } from '../../data/ProductsData';
 import FlatProduct from '../molecules/FlatProduct';
 
-export default function NewProducts() {
+export default function NewProducts({nav}) {
 
     return (
         <View style={styles.newProducts}>
@@ -15,7 +15,7 @@ export default function NewProducts() {
             <View style={{ flex: 1, marginTop: 10 }}>
                 <FlatList
                     data={productsData.filter(item => item.categorie == "new")}
-                    renderItem={FlatProduct}
+                    renderItem={({item, index}) => <FlatProduct item={item} index={index} nav={nav}/>}
                     keyExtractor={item => `${item.id}`}
                     horizontal
                     showsHorizontalScrollIndicator={false}

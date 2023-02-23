@@ -9,8 +9,8 @@ const AuthScreen = ({navigation}) => {
   const handleLogin = () => {
         if (UserData.username == username && UserData.password == password) {
             navigation.navigate('Home');
-        }else navigation.navigate('Home');
-        // alert("username or password ncorrect ")
+        }else 
+        alert("username or password ncorrect ")
 
   };
 

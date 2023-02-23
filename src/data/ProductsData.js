@@ -83,7 +83,7 @@ export const productsData = [
       {name:'Citron', image:require("../../assets/citron.jpg")},
     ],
     nutritions : {
-      Energie:"  1877 kj / 4- kcal", 
+      Energie:"  1877 kj / 950 kcal", 
       Graisses:" 2.50 g",
       Dont_acides_gras_staurés:"  0.3 g",
       Fibres_alimentaires:"   1.60 g",
@@ -101,7 +101,23 @@ export const productsData = [
     prix: 10,
     categorie: 'new',
     color:'#c1aeae',
-    image:require("../../assets/Caramel.jpg")
+    image:require("../../assets/Caramel.jpg"),
+    ingredients : [
+      {name:'Menth', image:require("../../assets/Menth.jpg")},
+      {name:'Sucre', image:require("../../assets/sucre.jpg")},
+      {name:'Element secret', image:require("../../assets/cache.png")},
+      {name:'Citron', image:require("../../assets/citron.jpg")},
+    ],
+    nutritions : {
+      Energie:"  1877 kj / 950 kcal", 
+      Graisses:" 2.50 g",
+      Dont_acides_gras_staurés:"  0.3 g",
+      Fibres_alimentaires:"   1.60 g",
+      Glucides:" 61.9 g",
+      Sucre:" 55.8 g",
+      Protéines:"  3.78 g",
+      Sel:" 0,05"
+    },
   },
   {
     id: 6,
@@ -109,7 +125,23 @@ export const productsData = [
     prix: 10,
     categorie: 'new',
     color:'#a3b5a2',
-    image:require("../../assets/niniche.jpg")
+    image:require("../../assets/niniche.jpg"),
+    ingredients : [
+      {name:'Menth', image:require("../../assets/Menth.jpg")},
+      {name:'Sucre', image:require("../../assets/sucre.jpg")},
+      {name:'Element secret', image:require("../../assets/cache.png")},
+      {name:'Citron', image:require("../../assets/citron.jpg")},
+    ],
+    nutritions : {
+      Energie:"  1877 kj / 950 kcal", 
+      Graisses:" 2.50 g",
+      Dont_acides_gras_staurés:"  0.3 g",
+      Fibres_alimentaires:"   1.60 g",
+      Glucides:" 61.9 g",
+      Sucre:" 55.8 g",
+      Protéines:"  3.78 g",
+      Sel:" 0,05"
+    },
   },
   {
     id: 7,
@@ -117,7 +149,23 @@ export const productsData = [
     prix: 30,
     categorie: 'new',
     color:'#a3b5a2',
-    image:require("../../assets/Asso.jpg")
+    image:require("../../assets/Asso.jpg"),
+    ingredients : [
+      {name:'Menth', image:require("../../assets/Menth.jpg")},
+      {name:'Sucre', image:require("../../assets/sucre.jpg")},
+      {name:'Element secret', image:require("../../assets/cache.png")},
+      {name:'Citron', image:require("../../assets/citron.jpg")},
+    ],
+    nutritions : {
+      Energie:"  1877 kj / 950 kcal", 
+      Graisses:" 2.50 g",
+      Dont_acides_gras_staurés:"  0.3 g",
+      Fibres_alimentaires:"   1.60 g",
+      Glucides:" 61.9 g",
+      Sucre:" 55.8 g",
+      Protéines:"  3.78 g",
+      Sel:" 0,05"
+    },
   },
   {
     id: 8,
@@ -125,7 +173,21 @@ export const productsData = [
     prix: 12,
     categorie: 'new',
     color:'#a3b5a2',
-    image:require("../../assets/cannabisBonon.jpg")
+    image:require("../../assets/cannabisBonon.jpg"),
+    ingredients : [
+      {name: 'Chocolat', image:require("../../assets/chocolat.jpg")},
+      {name:'Amande', image:require("../../assets/amande.jpg")},
+      {name:'Framboise', image:require("../../assets/framboise.jpg")},
+      {name:'Element secret', image:require("../../assets/cache.png")},
+    ],
+    nutritions : {
+      Energie : "2075 kJ / 496 kcal", 
+      Matières_Grasses: "24g",
+      Dont_acides_gras_staurés: "4g",
+      Glucides: "61g",
+      Protéines: "10g",
+      Sel: "0,04" 
+      },
   },
   
 ];

@@ -6,7 +6,7 @@ export default function HomeFooter() {
     return (
         <View style={styles.footer}>
             <View style={styles.home}>
-                <TouchableOpacity onPress={{}}>
+                <TouchableOpacity onPress={console.log("clicked")}>
                     <Image source={require("../../../assets/homeIcon.png")}></Image>
                 </TouchableOpacity>
             </View>

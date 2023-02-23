@@ -13,7 +13,7 @@ const nav = (obj)=>{
             <HomeHeader />
             <ScrollView>
                 <MostOrdered nav={nav}/>
-                <NewProducts />
+                <NewProducts nav={nav}/>
             </ScrollView>
             <HomeFooter />
         </>
