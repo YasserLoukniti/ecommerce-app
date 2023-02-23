@@ -3,7 +3,7 @@ import { Text } from 'react-native-elements';
 import { productsData } from '../../data/ProductsData';
 import Product from '../molecules/Product';
 
-export default function MostOrdered() {
+export default function MostOrdered({nav}) {
 
     return (
         <View style={styles.mostOrdered}>
@@ -15,7 +15,7 @@ export default function MostOrdered() {
         <View style={{ flex: 1, marginTop: 10 }}>
             <FlatList
                 data={productsData}
-                renderItem={Product}
+                renderItem={({item, index}) => <Product item={item} index={index} nav={nav}/>}
                 keyExtractor={item => `${item.id}`}
                 horizontal
                 showsHorizontalScrollIndicator={false}

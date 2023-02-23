@@ -1,7 +1,7 @@
 import { Image, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
-export default function Product({index,item}) {
+export default function Product({index,item,nav}) {
   return (
     <TouchableOpacity
       style={{
@@ -9,6 +9,7 @@ export default function Product({index,item}) {
         marginLeft: index == 0 ? 3 : 0,
         marginRight: 10
       }}
+      onPress={()=>nav({product: item})}
     >
       <View
         resizeMode="cover"

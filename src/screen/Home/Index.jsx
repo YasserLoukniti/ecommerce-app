@@ -4,13 +4,15 @@ import HomeHeader from '../../component/Home/Home-Header';
 import MostOrdered from '../../component/Home/Most-Ordered';
 import NewProducts from '../../component/Home/New-Products';
 
-export default function Home() {
-
+export default function Home({navigation}) {
+const nav = (obj)=>{
+    navigation.navigate("ProductDetail",obj)
+}
     return (
         < >
             <HomeHeader />
             <ScrollView>
-                <MostOrdered />
+                <MostOrdered nav={nav}/>
                 <NewProducts />
             </ScrollView>
             <HomeFooter />

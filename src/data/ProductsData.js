@@ -5,11 +5,11 @@ export const productsData = [
     title: 'Bulerie varoise',
     prix: 13,
     categorie: 'Des friandises en chocolat',
-    Ingredient : [
-      {name: 'Chocolat', image : '../../assets/chocolat.jpg'},
-      {name:'Amande', image:'../../assets/amande.jpg'},
-      {name:'Framboise', image:'../../assets/famboise.jpg'},
-      {name:'Sucre', image:'../../assets/sucre.jpg'},
+    ingredients : [
+      {name: 'Chocolat', image:require("../../assets/chocolat.jpg")},
+      {name:'Amande', image:require("../../assets/amande.jpg")},
+      {name:'Framboise', image:require("../../assets/framboise.jpg")},
+      {name:'Sucre', image:require("../../assets/sucre.jpg")},
     ],
     color:'#c1aeae',
     image:require("../../assets/coucougnette.jpg")
@@ -20,11 +20,11 @@ export const productsData = [
     title: 'Les Nougats',
     prix: 10,
     categorie: 'Les Nougats De Montélimar Sans Gluten',
-    Ingredient : [
-      {name: 'Pistache', image : '../../assets/pistache.jpg'},
-      {name:'Amande', image:'../../assets/amande.jpg'},
-      {name:'Miel', image:'../../assets/miel.jpg'},
-      {name:'Sucre', image:'../../assets/sucre.jpg'},
+    ingredients : [
+      {name: 'Pistache', image:require("../../assets/pistache.jpg")},
+      {name:'Amande', image:require("../../assets/amande.jpg")},
+      {name:'Miel', image:require("../../assets/miel.jpg")},
+      {name:'Sucre', image:require("../../assets/sucre.jpg")},
     ],
     color:'#a3b5a2',
     image:require("../../assets/nougats.jpg")
@@ -34,11 +34,11 @@ export const productsData = [
     title: 'Coussin Berlino',
     prix: 30,
     categorie: 'Des friandises traditionnelles',
-    Ingredient : [
-      {name: 'Lait', image : '../../assets/lait.jpg'},
-      {name:'Amande', image:'../../assets/amande.jpg'},
-      {name:'Cacao', image:'../../assets/cacao.jpg'},
-      {name:'Sucre', image:'../../assets/sucre.jpg'},
+    ingredients : [
+      {name: 'Lait', image:require("../../assets/Lait.jpg")},
+      {name:'Amande', image:require("../../assets/amande.jpg")},
+      {name:'Cacao', image:require("../../assets/cacao.jpg")},
+      {name:'Sucre', image:require("../../assets/sucre.jpg")},
     ],
     color:'#a3b5a2',
     image:require("../../assets/Coussins.jpg")
@@ -48,9 +48,9 @@ export const productsData = [
     title: 'Les Bêtises',
     prix: 12,
     categorie: 'Les Bêtises De Cambrai',
-    Ingredient : [
-      {name:'Menth', image:'../../assets/menth.jpg'},
-      {name:'Sucre', image:'../../assets/sucre.jpg'},
+    ingredients : [
+      {name:'Menth', image:require("../../assets/Menth.jpg")},
+      {name:'Sucre', image:require("../../assets/sucre.jpg")},
     ],
     color:'#a3b5a2',
     image:require("../../assets/Betises.jpg")
