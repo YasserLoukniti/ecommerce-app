@@ -6,10 +6,10 @@ export const productsData = [
     prix: 13,
     categorie: 'Des friandises en chocolat',
     ingredients : [
-      {name: 'Chocolat', image:require("../../assets/chocolat.jpg")},
-      {name:'Amande', image:require("../../assets/amande.jpg")},
-      {name:'Framboise', image:require("../../assets/framboise.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
+      {name: 'Chocolat', image:"https://img-3.journaldesfemmes.fr/MQayPLMxDLSVhYxdSpOegdtP7eQ=/1500x/smart/0f46149452e249c19853cb26272846b0/ccmcms-jdf/36993172.jpg"},
+      {name:'Amande', image:"https://www.endur-activ.com/wp-content/uploads/2019/06/amande.png"},
+      {name:'Framboise', image:"https://www.cuisinealafrancaise.com/img/thumbs/Framboises-b5e20a7c4354747429539dbe2501ef6c.jpg"},
+      {name:'Element secret', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
     ],
     nutritions : {
       Energie : "2075 kJ / 496 kcal", 
@@ -20,7 +20,7 @@ export const productsData = [
       Sel: "0,04" 
       },
     color:'#c1aeae',
-    image:require("../../assets/coucougnette.jpg")
+    image:"https://www.joursheureux.fr/3692-medium_default/les-coucougnettes-de-pau-3918000.jpg"
   },
     
   {
@@ -29,10 +29,10 @@ export const productsData = [
     prix: 10,
     categorie: 'Les Nougats De Montélimar Sans Gluten',
     ingredients : [
-      {name: 'Pistache', image:require("../../assets/pistache.jpg")},
-      {name:'Amande', image:require("../../assets/amande.jpg")},
-      {name:'Miel', image:require("../../assets/miel.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
+      {name: 'Pistache', image:"https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fcontent.2Fuploads.2F2018.2F08.2Fpistache.2Ejpg/650x324/quality/80/crop-from/center/les-bienfaits-sante-de-la-pistache.jpeg"},
+      {name:'Amande', image:"https://www.endur-activ.com/wp-content/uploads/2019/06/amande.png"},
+      {name:'Miel', image:"https://www.pleinevie.fr/wp-content/uploads/pleinevie/2017/02/Les-5-principaux-atouts-du-miel.jpg"},
+      {name:'Element secret', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
     ],
     nutritions : {
     Energie : "  2167 kj / 411 kcal", 
@@ -45,7 +45,7 @@ export const productsData = [
     },
     color:'#a3b5a2',
     
-    image:require("../../assets/nougats.jpg")
+    image:"https://www.joursheureux.fr/3579-medium_default/les-nougats-de-montelimar-sans-gluten-2770013.jpg"
   },
   {
     id: 3,
@@ -53,10 +53,10 @@ export const productsData = [
     prix: 30,
     categorie: 'Des friandises traditionnelles',
     ingredients : [
-      {name: 'Lait', image:require("../../assets/Lait.jpg")},
-      {name:'Amande', image:require("../../assets/amande.jpg")},
-      {name:'Cacao', image:require("../../assets/cacao.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
+      {name: 'Lait', image:"https://www.journee-mondiale.com//medias/grande/images/journee/lait.jpg"},
+      {name:'Amande', image:"https://www.endur-activ.com/wp-content/uploads/2019/06/amande.png"},
+      {name:'Cacao', image:"https://img-3.journaldesfemmes.fr/MQayPLMxDLSVhYxdSpOegdtP7eQ=/1500x/smart/0f46149452e249c19853cb26272846b0/ccmcms-jdf/36993172.jpg"},
+      {name:'Element secret', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
     ],
     nutritions : {
       Energie : "  2167 kj / 43 kcal", 
@@ -69,7 +69,7 @@ export const productsData = [
       Sel : " 0,03"
     },
     color:'#a3b5a2',
-    image:require("../../assets/Coussins.jpg")
+    image:"https://www.joursheureux.fr/2439-medium_default/les-coussins-de-lyon-1116100.jpg"
   },
   {
     id: 4,
@@ -77,10 +77,10 @@ export const productsData = [
     prix: 12,
     categorie: 'Les Bêtises De Cambrai',
     ingredients : [
-      {name:'Menth', image:require("../../assets/Menth.jpg")},
-      {name:'Sucre', image:require("../../assets/sucre.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
-      {name:'Citron', image:require("../../assets/citron.jpg")},
+      {name:'Menth', image:"https://www.directfinesherbes.fr/wp-content/uploads/2018/04/menthe.jpg"},
+      {name:'Sucre', image:"https://www.colichef.fr/7824/sucre-glace-300-grammes.jpg"},
+      {name:'Element secret', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
+      {name:'Citron', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
     ],
     nutritions : {
       Energie:"  1877 kj / 950 kcal", 
@@ -93,7 +93,7 @@ export const productsData = [
       Sel:" 0,05"
     },
     color:'#a3b5a2',
-    image:require("../../assets/Betises.jpg")
+    image:"https://www.joursheureux.fr/3835-medium_default/les-betises-de-cambrai-6326004.jpg"
   },
   {
     id: 5,
@@ -101,12 +101,11 @@ export const productsData = [
     prix: 10,
     categorie: 'new',
     color:'#c1aeae',
-    image:require("../../assets/Caramel.jpg"),
+    image:"https://www.joursheureux.fr/4627-medium_default/les-caramels-tendres-a-la-fleur-de-sel-7551019.jpg",
     ingredients : [
-      {name:'Menth', image:require("../../assets/Menth.jpg")},
-      {name:'Sucre', image:require("../../assets/sucre.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
-      {name:'Citron', image:require("../../assets/citron.jpg")},
+      {name:'Caramel', image:"https://www.olfastory.com/sites/www.olfastory.com/files/styles/400x400/public/caramel.jpg"},
+      {name:'Sucre', image:"https://www.colichef.fr/7824/sucre-glace-300-grammes.jpg"},
+      {name:'Element secret', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
     ],
     nutritions : {
       Energie:"  1877 kj / 950 kcal", 
@@ -125,12 +124,11 @@ export const productsData = [
     prix: 10,
     categorie: 'new',
     color:'#a3b5a2',
-    image:require("../../assets/niniche.jpg"),
+    image:"https://www.joursheureux.fr/8075-medium_default/les-niniches-de-quiberon-8739004.jpg",
     ingredients : [
-      {name:'Menth', image:require("../../assets/Menth.jpg")},
-      {name:'Sucre', image:require("../../assets/sucre.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
-      {name:'Citron', image:require("../../assets/citron.jpg")},
+      {name:'Caramel', image:"https://www.olfastory.com/sites/www.olfastory.com/files/styles/400x400/public/caramel.jpg"},
+      {name:'Sucre', image:"https://www.colichef.fr/7824/sucre-glace-300-grammes.jpg"},
+      {name:'Element secret', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
     ],
     nutritions : {
       Energie:"  1877 kj / 950 kcal", 
@@ -149,12 +147,12 @@ export const productsData = [
     prix: 30,
     categorie: 'new',
     color:'#a3b5a2',
-    image:require("../../assets/Asso.jpg"),
+    image:"https://www.joursheureux.fr/6983-medium_default/les-bonbons-feuilletes-3447003.jpg",
     ingredients : [
-      {name:'Menth', image:require("../../assets/Menth.jpg")},
-      {name:'Sucre', image:require("../../assets/sucre.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
-      {name:'Citron', image:require("../../assets/citron.jpg")},
+      {name:'Menth', image:"https://www.directfinesherbes.fr/wp-content/uploads/2018/04/menthe.jpg"},
+      {name:'Sucre', image:"https://www.colichef.fr/7824/sucre-glace-300-grammes.jpg"},
+      {name:'Element secret', image : "https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
+      {name:'Citron', image:"https://cdn-icons-png.flaticon.com/512/7879/7879554.png"},
     ],
     nutritions : {
       Energie:"  1877 kj / 950 kcal", 
@@ -167,27 +165,6 @@ export const productsData = [
       Sel:" 0,05"
     },
   },
-  {
-    id: 8,
-    title: 'cannabis Bonon',
-    prix: 12,
-    categorie: 'new',
-    color:'#a3b5a2',
-    image:require("../../assets/cannabisBonon.jpg"),
-    ingredients : [
-      {name: 'Chocolat', image:require("../../assets/chocolat.jpg")},
-      {name:'Amande', image:require("../../assets/amande.jpg")},
-      {name:'Framboise', image:require("../../assets/framboise.jpg")},
-      {name:'Element secret', image:require("../../assets/cache.png")},
-    ],
-    nutritions : {
-      Energie : "2075 kJ / 496 kcal", 
-      Matières_Grasses: "24g",
-      Dont_acides_gras_staurés: "4g",
-      Glucides: "61g",
-      Protéines: "10g",
-      Sel: "0,04" 
-      },
-  },
+
   
 ];
