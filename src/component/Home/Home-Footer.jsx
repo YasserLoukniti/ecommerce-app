@@ -6,7 +6,7 @@ export default function HomeFooter() {
     return (
         <View style={styles.footer}>
             <View style={styles.home}>
-                <TouchableOpacity onPress={console.log("clicked")}>
+                <TouchableOpacity onPress={{}}>
                     <Image source={require("../../../assets/homeIcon.png")}></Image>
                 </TouchableOpacity>
             </View>
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
         justifyContent: 'space-between',
         alignItems: 'center',
-        marginBottom:10
+        marginBottom:10,
     },
     home: {
         flex: 1,

@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
     },
     explorer: {
         flex: 3,
-        backgroundColor: "white",
         padding: 15
     },
     searchbar: {
