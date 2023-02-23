@@ -5,7 +5,6 @@ import {getAuth} from "firebase/auth";
 
 import { getFirestore,collection,getDocs,addDoc} from "firebase/firestore";
 import { getStorage } from "firebase/storage";
-import { productsData } from "./ProductsData";
 
 
 const firebaseConfig = {
@@ -24,13 +23,6 @@ const db = getFirestore(app)
 const auth = getAuth(app);
 const storage = getStorage(app);
 
-
-const uploadProducts = () => {
-    productsData.forEach(product => {
-        db.collection("products").add(product)
-    });
-  }
-
 export {
     app,
     db,
@@ -40,5 +32,4 @@ export {
     auth,
     storage,
     addDoc,
-    uploadProducts
 }

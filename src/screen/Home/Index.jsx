@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Button, ScrollView, StyleSheet, Text, View } from 'react-native';
 import HomeFooter from '../../component/Home/Home-Footer';
 import HomeHeader from '../../component/Home/Home-Header';
 import MostOrdered from '../../component/Home/Most-Ordered';
 import NewProducts from '../../component/Home/New-Products';
-import { db } from '../../data/Database';
+import { db} from '../../data/Database';
+import { productsData } from '../../data/ProductsData';
 
 export default function Home({navigation}) {
 const nav = (obj)=>{
@@ -19,6 +20,7 @@ useEffect(() => {
       })
     })
   }, [])
+  
     return (
         < >
             <HomeHeader />

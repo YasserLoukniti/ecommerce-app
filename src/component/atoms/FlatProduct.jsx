@@ -11,7 +11,7 @@ export default function FlatProduct({ index, item,nav }) {
             }}
             onPress={()=>nav({product: item})}
         >
-            <ImageBackground source={item.image}  
+            <ImageBackground source={uri(item.image)}  
                 resizeMode="cover"
                 imageStyle={{ borderRadius: 10}}
                 style={{

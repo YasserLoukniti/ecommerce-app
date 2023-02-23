@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { View, TextInput, TouchableOpacity, Text, StyleSheet, Button } from 'react-native';
 import { UserData } from '../../data/UserData';
 
 const AuthScreen = ({navigation}) => {
@@ -9,14 +9,15 @@ const AuthScreen = ({navigation}) => {
   const handleLogin = () => {
         if (UserData.username == username && UserData.password == password) {
             navigation.navigate('Home');
-        }else 
-        alert("username or password ncorrect ")
+        }else navigation.navigate('Home');
+        // alert("username or password ncorrect ")
 
   };
 
 
   return (
     <View style={styles.container}>
+
       <TextInput
         style={styles.input}
         placeholder="username"

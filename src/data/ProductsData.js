@@ -1,4 +1,8 @@
-
+export const uploadProductsToDb = () => {
+  productsData.forEach(product => {
+      db.collection("products").add(product)
+  });
+}
 export const productsData = [
   {
     id: 1,

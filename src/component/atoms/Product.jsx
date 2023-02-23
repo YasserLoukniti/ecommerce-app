@@ -24,7 +24,7 @@ export default function Product({index,item,nav}) {
         }}
       >
         <Image
-        source={item.image}
+        source={uri(item.image)}
         style={{width:100,height:130,borderRadius:50,marginTop:-40,marginLeft:60,
             transform: [{rotate: '20deg'}]}}
         />

@@ -12,7 +12,7 @@ export default function Ingredients({ ingredients }) {
                         <Avatar
                             rounded
                             size="large"
-                            source={ingredient.image}
+                            source={uri(ingredient.image)}
                         />
                         <Text style={{fontSize:14,color:"grey",marginTop:10,fontWeight:"bold"}}>{ingredient.name}</Text>
                     </View>
