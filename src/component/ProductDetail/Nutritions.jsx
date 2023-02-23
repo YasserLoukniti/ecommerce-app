@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native"
 import {  View } from "react-native"
 import { Avatar, Text } from "react-native-elements"
 
-export default function Ingredients({ ingredients }) {
+export default function Nutritions({ ingredients }) {
     return (
         <View style={{ flex: 4,padding: 20 }}>
             <Text style={{ fontSize: 16, fontWeight: 'bold' }}>INGREDIENTS</Text>

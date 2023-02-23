@@ -12,7 +12,7 @@ export default function ProductDetailHeader({title,navigation}) {
                     name='arrow-left' />
             </TouchableOpacity>
             <View style={{ flex: 3, justifyContent: "center" }}>
-                <Text h2>{title}</Text>
+                <Text h3>{title}</Text>
             </View>
         </View>
     )
