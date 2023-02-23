@@ -1,7 +1,7 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-elements';
 import { productsData } from '../../data/ProductsData';
-import Product from '../molecules/Product';
+import Product from '../atoms/Product';
 
 export default function MostOrdered({nav}) {
 
