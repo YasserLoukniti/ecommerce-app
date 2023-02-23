@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import HomeFooter from '../../component/Home/Home-Footer';
 import HomeHeader from '../../component/Home/Home-Header';
 import MostOrdered from '../../component/Home/Most-Ordered';
@@ -9,8 +9,10 @@ export default function Home() {
     return (
         < >
             <HomeHeader />
-            <MostOrdered />
-            <NewProducts />
+            <ScrollView>
+                <MostOrdered />
+                <NewProducts />
+            </ScrollView>
             <HomeFooter />
         </>
     );

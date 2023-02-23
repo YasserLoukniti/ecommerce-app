@@ -1,11 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Home from './src/screen/Home/Index';
+import { StyleSheet, View } from 'react-native';
+import AppNavigator from './src/AppNavigator';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Home/>
+          <AppNavigator />
     </View>
   );
 }
